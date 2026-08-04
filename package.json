@@ -1,0 +1,11 @@
+{
+  "name": "arcticwallet-tangem-connector",
+  "private": true,
+  "packageManager": "pnpm@10.14.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --parallel --filter @arctic/widget --filter @arctic/relayer dev",
+    "test": "pnpm --filter @arctic/contracts test",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
