@@ -119,11 +119,3 @@ export function App() {
     </main>
   );
 }
-
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      "appkit-button": Record<string, never>;
-    }
-  }
-}
